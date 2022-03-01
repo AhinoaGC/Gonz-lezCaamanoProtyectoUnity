@@ -5,8 +5,8 @@ using UnityEngine;
 public class MovimientoPersonaje : MonoBehaviour
 {
 
-    public float velocidadCorrer = 3;
-    public float velocidadSalto = 6;
+    public float velocidadCorrer = 4;
+    public float velocidadSalto = 7;
 
     public float multiplicadorSalto = 0.5f;
     public float multiplicadorSaltoMenor = 1f;
