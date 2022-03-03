@@ -9,11 +9,17 @@ public class ComprobarSuelo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        tocaSuelo = true;
+        if (collision.CompareTag("Suelo"))
+        {
+            tocaSuelo = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        tocaSuelo = false;
+        if (collision.CompareTag("Suelo"))
+        {
+            tocaSuelo = false;
+        }
     }
 }
