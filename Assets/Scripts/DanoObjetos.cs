@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DanoObjetos : MonoBehaviour
 {
@@ -9,8 +10,7 @@ public class DanoObjetos : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            Debug.Log("Daño personaje");
-            Destroy(collision.gameObject);
+            collision.transform.GetComponent<ContarFrutas>().recibirDaño();
         }
     }
 

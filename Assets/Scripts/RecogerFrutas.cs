@@ -10,6 +10,7 @@ public class RecogerFrutas : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            ContarFrutas.sumarFrutas();
             Destroy(gameObject, 0.5f);
         }
     }

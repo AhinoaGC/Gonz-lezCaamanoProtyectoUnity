@@ -83,8 +83,8 @@ GameObject:
   - component: {fileID: 8631296865469519815}
   - component: {fileID: 8631296865469519811}
   - component: {fileID: 8631296865469519810}
+  - component: {fileID: 8739912426261615783}
   - component: {fileID: 8631296865469519808}
-  - component: {fileID: 8631296865469519809}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Player
@@ -224,6 +224,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &8739912426261615783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631296865469519814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67c226bfea2c754d9fb5974cb0e7621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: {fileID: 0}
 --- !u!114 &8631296865469519808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,16 +254,3 @@ MonoBehaviour:
   multiplicadorSalto: 0.5
   multiplicadorSaltoMenor: 1
   animator: {fileID: 8631296865469519815}
---- !u!114 &8631296865469519809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631296865469519814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d67c226bfea2c754d9fb5974cb0e7621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  texto: {fileID: 0}

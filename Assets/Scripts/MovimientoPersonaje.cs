@@ -24,7 +24,6 @@ public class MovimientoPersonaje : MonoBehaviour
 
     void FixedUpdate()
     {
-
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
             rb.velocity = new Vector2(velocidadCorrer, rb.velocity.y);
