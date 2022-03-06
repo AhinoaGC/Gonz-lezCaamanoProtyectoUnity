@@ -7,6 +7,24 @@ public class UiManager : MonoBehaviour
 {
     public GameObject panelOpciones;
 
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (panelOpciones.active == false)
+            {
+                Time.timeScale = 0;
+                panelOpciones.SetActive(true);
+            }
+            else if(panelOpciones.active == true)
+            {
+                Time.timeScale = 1;
+                panelOpciones.SetActive(false);
+            }
+            
+        }
+    }
     public void PanelOpciones()
     {
         Time.timeScale = 0;

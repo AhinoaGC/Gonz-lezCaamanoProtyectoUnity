@@ -1511,7 +1511,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 502155497, guid: 62ddee0001da775419835b94c84e8f7e, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 502155497, guid: 62ddee0001da775419835b94c84e8f7e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1103890647, guid: 62ddee0001da775419835b94c84e8f7e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261826314, guid: 62ddee0001da775419835b94c84e8f7e, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
