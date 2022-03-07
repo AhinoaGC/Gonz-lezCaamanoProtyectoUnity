@@ -51,9 +51,10 @@ public class ContarFrutas: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Fruta") && !gameObject.CompareTag("ComprobarSuelo")){
+        if (collision.transform.CompareTag("Fruta")){
             frutas++;
             texto.text = "x" + frutas.ToString();
+            Debug.Log(gameObject.transform.GetChild(0).transform.tag);
         }else if (collision.CompareTag("Check"))
         {
             PlayerPrefs.SetFloat("CheckPointX", collision.transform.position.x);

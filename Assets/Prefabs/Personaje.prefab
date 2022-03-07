@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8631296865036046405
+--- !u!1 &1430513391
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8631296865036046402}
-  - component: {fileID: 8631296865036046400}
-  - component: {fileID: 8631296865036046403}
+  - component: {fileID: 1430513394}
+  - component: {fileID: 1430513393}
+  - component: {fileID: 1430513392}
   m_Layer: 0
-  m_Name: ComprobarSuelo
-  m_TagString: Untagged
+  m_Name: 'ComprobarSuelo '
+  m_TagString: ComprobarSuelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8631296865036046402
+--- !u!4 &1430513394
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631296865036046405}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1430513391}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8631296865469519813}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &8631296865036046400
+--- !u!61 &1430513393
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631296865036046405}
+  m_GameObject: {fileID: 1430513391}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -58,13 +58,13 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.38261414, y: 0.0743193}
   m_EdgeRadius: 0
---- !u!114 &8631296865036046403
+--- !u!114 &1430513392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8631296865036046405}
+  m_GameObject: {fileID: 1430513391}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4993e726b182b6d47bc464357d0ea3e6, type: 3}
@@ -103,7 +103,7 @@ Transform:
   m_LocalPosition: {x: -5.99, y: 0.05442717, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8631296865036046402}
+  - {fileID: 1430513394}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -237,6 +237,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 0}
+  corazon1: {fileID: 0}
+  corazon2: {fileID: 0}
+  corazon3: {fileID: 0}
+  corazonRoto1: {fileID: 0}
+  corazonRoto2: {fileID: 0}
+  corazonRoto3: {fileID: 0}
+  animator: {fileID: 8631296865469519815}
+  CheckPointX: 0
+  CheckPointY: 0
+  vidas: 0
 --- !u!114 &8631296865469519808
 MonoBehaviour:
   m_ObjectHideFlags: 0
