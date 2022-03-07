@@ -7,6 +7,7 @@ TagManager:
   - Fruta
   - Suelo
   - Check
+  - Agua
   layers:
   - Default
   - TransparentFX

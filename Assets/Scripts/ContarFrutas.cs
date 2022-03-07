@@ -70,6 +70,5 @@ public class ContarFrutas: MonoBehaviour
     {
         vidas--;
         comprobarVida();
-       
     }
 }
