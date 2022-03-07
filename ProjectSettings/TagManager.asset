@@ -8,6 +8,7 @@ TagManager:
   - Suelo
   - Check
   - Agua
+  - ComprobarSuelo
   layers:
   - Default
   - TransparentFX

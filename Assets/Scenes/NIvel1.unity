@@ -5964,6 +5964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Naranja
       objectReference: {fileID: 0}
+    - target: {fileID: 3289976232043874019, guid: 50f7c4077dfe6cc42ba2ba89f454116c, type: 3}
+      propertyPath: col
+      value: 
+      objectReference: {fileID: 1148792940}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50f7c4077dfe6cc42ba2ba89f454116c, type: 3}
 --- !u!1 &1088430724
@@ -6048,6 +6052,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1148792940 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 3289976232043874028, guid: 50f7c4077dfe6cc42ba2ba89f454116c, type: 3}
+  m_PrefabInstance: {fileID: 1065536453}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1238263363
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,7 +51,7 @@ public class ContarFrutas: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.CompareTag("Fruta")){
+        if (collision.transform.CompareTag("Fruta") && !gameObject.CompareTag("ComprobarSuelo")){
             frutas++;
             texto.text = "x" + frutas.ToString();
         }else if (collision.CompareTag("Check"))
@@ -59,11 +59,6 @@ public class ContarFrutas: MonoBehaviour
             PlayerPrefs.SetFloat("CheckPointX", collision.transform.position.x);
             PlayerPrefs.SetFloat("CheckPointY", gameObject.transform.position.y);
         }
-    }
-
-    public static void sumarFrutas()
-    {
-        Debug.Log("Contar frutas");
     }
 
     public void recibirDaño()
